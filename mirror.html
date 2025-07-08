@@ -1,27 +1,26 @@
+<!-- mirror.html -->
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <title>Mystic Scroll - Mirror</title>
   <link rel="stylesheet" href="style.css">
   <script>
     function activateTrap() {
-      console.log("🧠 Mirror Scroll Activated - Intrusion Logged");
+      console.log("\u{1F9E0} Mirror Scroll Activated - Intrusion Logged");
       alert("Scroll corruption detected! Nexus Guardian has been notified...");
     }
     window.onload = activateTrap;
   </script>
 </head>
 <body>
-  <div style="text-align:center; padding-top:50px;">
-    <h1 style="color:red; text-shadow:0 0 10px crimson;">⚠️ You've Activated the Mirror Trap ⚠️</h1>
+  <div class="mirror-content">
+    <h1 class="alert-title">⚠️ You've Activated the Mirror Trap ⚠️</h1>
     <img 
-      src="https://i.ytimg.com/vi/LQ4_JZWodrc/hqdefault.jpg" 
+      src="https://cdn.wallpapersafari.com/40/51/qRHscL.jpg" 
       alt="hacked" 
-      style="width:90%; max-width:600px; margin:30px auto; border:3px dashed red;">
-    <p style="color:lime; font-size:18px;">
-      Your intrusion has been logged to the ScrollKeeper’s Codex.
-    </p>
+      class="mirror-img">
+    <p class="log-text">Your intrusion has been logged to the ScrollKeeper’s Codex.</p>
   </div>
 </body>
 </html>
