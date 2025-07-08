@@ -1,0 +1,31 @@
+body {
+  background: url('https://i.imgur.com/Cj6qK5s.jpg') no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'Cinzel', serif;
+  color: #e0d9b3;
+  text-align: center;
+  padding-top: 100px;
+}
+
+h1 {
+  font-size: 3rem;
+  animation: flicker 2s infinite;
+  text-shadow: 0 0 10px gold;
+}
+
+@keyframes flicker {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.6; }
+}
+
+a {
+  color: cyan;
+  font-size: 1.2rem;
+  text-decoration: none;
+  border-bottom: 1px dashed cyan;
+}
+
+a:hover {
+  color: red;
+  border-bottom: 1px solid red;
+}
