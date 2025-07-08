@@ -1,16 +1,33 @@
+/* style.css */
 body {
-background: url('https://images.unsplash.com/photo-1616137501774-c746eb3d2bb6') no-repeat center center fixed;
+  background: url('https://images.unsplash.com/photo-1616137501774-c746eb3bd2b6') no-repeat center center fixed;
   background-size: cover;
   font-family: 'Cinzel', serif;
   color: #e0d9b3;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   text-align: center;
-  padding-top: 100px;
 }
 
-h1 {
+.title {
   font-size: 3rem;
-  animation: flicker 2s infinite;
+  margin-bottom: 1rem;
   text-shadow: 0 0 10px gold;
+}
+
+.alt-link {
+  font-size: 0.9rem;
+  color: #aaa;
+  text-decoration: none;
+}
+
+.flicker {
+  animation: flicker 2s infinite;
 }
 
 @keyframes flicker {
@@ -28,4 +45,25 @@ a {
 a:hover {
   color: red;
   border-bottom: 1px solid red;
+}
+
+.mirror-content {
+  padding: 50px;
+}
+
+.alert-title {
+  color: red;
+  text-shadow: 0 0 10px crimson;
+}
+
+.mirror-img {
+  width: 90%;
+  max-width: 600px;
+  margin: 30px auto;
+  border: 3px dashed red;
+}
+
+.log-text {
+  color: lime;
+  font-size: 18px;
 }
